@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  height: 100vh;
+  background-color:azure;
+}
+h1{
+  margin: 20px 0;
+  text-align: center;
+  color: darkblue;
+  text-decoration: none;
+}input,button{
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  height: 33px;
+  margin-top: 10px;
+}
+input{
+  width: 300px;
+  padding-left: 2%;
+}
+button{
+  margin-left: 10px;
+  padding: 0 10px;
+  background-color: green;
+  border: 2px solid black;
+  font-size: larger;
+  width: 150px;
+}
